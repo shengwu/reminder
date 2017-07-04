@@ -1,5 +1,12 @@
 {
   "name": "reminder",
   "version": "0.0.1",
-  "main": "main.js"
+  "author": {
+    "name": "Sheng Wu",
+    "email": "shengwu34@gmail.com"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^1.7.4"
+  }
 }
