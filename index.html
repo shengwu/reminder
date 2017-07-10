@@ -3,10 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <title>Reminder app</title>
+  <style>
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: table;
+}
+div {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: table-cell;
+  vertical-align: middle;
+  user-select: none;
+}
+div:hover {
+  color: #777;
+  cursor: pointer;
+}
+  </style>
+  <script src="renderer.js"></script>
 </head>
 <body>
-  
-  <h1>This will be a reminder menu</h1>
-
+  <div onclick="quit();">Quit</div>
 </body>
 </html>

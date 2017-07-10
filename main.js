@@ -26,7 +26,9 @@ const showReminder = () => {
 }
 
 const mb = menubar({
-  icon: 'icon.png'
+  icon: 'icon.png',
+  width: 100,
+  height: 50,
 })
 
 mb.on('ready', () => {
