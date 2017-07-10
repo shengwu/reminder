@@ -1,2 +1,4 @@
 *.sw?
 node_modules
+reminder-darwin-x64
+.DS_Store

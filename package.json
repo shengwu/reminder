@@ -5,8 +5,10 @@
     "name": "Sheng Wu",
     "email": "shengwu34@gmail.com"
   },
+  "license": "MIT",
   "main": "main.js",
   "dependencies": {
-    "electron": "^1.7.4"
+    "electron": "^1.7.4",
+    "menubar": "^5.2.3"
   }
 }
