@@ -26,7 +26,7 @@ const showReminder = () => {
 }
 
 const mb = menubar({
-  icon: 'icon.png',
+  icon: path.join(__dirname, 'icon.png'),
   width: 100,
   height: 50,
 })
